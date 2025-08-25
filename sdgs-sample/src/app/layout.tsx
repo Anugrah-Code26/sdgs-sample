@@ -26,7 +26,7 @@ export default function RootLayout({
         className={`${poppins.className} bg-gray-100 text-gray-900 min-h-screen flex flex-col`}
       >
         <NavBar />
-        <main className="flex-1 w-full p-6">
+        <main className="flex-1 w-full">
           {children}
         </main>
         <Footer />
